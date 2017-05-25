@@ -1,0 +1,121 @@
+body {
+	color: #f7f7f8;
+  	background-color: #0f0f10;
+  	margin-top: 20px;
+  }
+
+p {
+	font-family: 'Poppins', sans-serif;
+  	font-weight: 300;
+  	letter-spacing:  0.5px;
+  
+}
+
+.logo {
+	background-color: 0f0f10;
+	width: 210px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	
+}
+
+h1 {
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 50px;
+  	font-weight: lighter;
+  	letter-spacing: 3px;
+	text-align: center;
+	text-decoration: uppercase;
+	margin-bottom: 10px;
+}
+
+div.main-cover {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+img.artist-content {
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	margin-top: 20px;
+}
+
+.flex-center {
+	text-align: center;
+	font-family: 'Poppins';
+  	font-weight: normal;
+	text-decoration: none;
+	color: #f7f7f8;
+}
+
+.name {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+
+}
+
+/* media queries */
+
+/* for small phones */
+
+  @media (max-width: 599px) { 
+  	
+  	    body { 
+  	    margin-top: 30px;
+    	width: 100%;
+    	margin: 0 auto; 
+    }	 	
+
+  	h1 {
+  		font-size: 24px;
+  		margin-top: 10px;
+  	}
+
+  	.logo {
+  		margin-top: 20px;
+  		width: 120px;
+  	}
+
+
+	.list-inline li {
+		font-size: 10px;
+		margin: 0 auto;
+		text-align: center;
+	  }  
+
+	img.artist-content {
+		width: 95%;
+		margin: 0 auto;
+	}  
+
+  }
+
+/* for-tablet-portrait-up */
+
+  @media (min-width: 600px) and (max-width:800px) {  
+  	h1 {
+  	    font-size: 35px;
+  	}
+
+  	.logo {
+  		width: 150px;
+  	}
+
+  	img.artist-content {
+		width: 95%;
+		margin: 0 auto;
+	} 
+
+  }
+
+
+/* for-desktop-only */
+
+  @media (min-width: 1080px) and (max-width: 1920px) { 
+  	
+  }
+
+

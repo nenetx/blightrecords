@@ -1,0 +1,64 @@
+body {
+    color: #f7f7f8;
+    background-color: #0f0f10;
+    margin-top: 40px;
+}
+
+div {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 40px;
+  	font-weight: lighter;
+  	letter-spacing: 3px;
+	text-align: center;
+	text-decoration: uppercase;
+}
+
+h2 {
+    font-family: 'Inknut Antiqua', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: -10px;
+}
+
+p {
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+img {
+    width: 250px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.container li a {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    list-style-type:none;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+    
